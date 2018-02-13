@@ -1,0 +1,12 @@
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.list-item > div {
+    flex: 1;
+    padding: 10px;
+}
